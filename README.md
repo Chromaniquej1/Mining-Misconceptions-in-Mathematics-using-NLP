@@ -34,4 +34,26 @@ The expected input data should be in CSV format with the following columns:
 
 QuestionId_Answer: The identifier for each question and answer option.
 
+## Evaluation Metrics
+
+The model's performance is evaluated using the following metrics:
+
+Accuracy: The proportion of correct predictions among the total predictions.
+F1 Score: The harmonic mean of precision and recall, useful for imbalanced classes.
+Precision: The ratio of true positive predictions to the total predicted positives.
+Recall: The ratio of true positive predictions to the total actual positives.
+Hamming Loss: The fraction of wrong labels to the total number of labels.
+These metrics are calculated for each output and averaged across all outputs to provide an overall assessment.
+
+## Results 
+
+```Overall Evaluation Metrics:
+
+Average Scores Across All Misconceptions:
+Average Accuracy: 0.9987
+Average F1 Score: 0.9982
+Average Precision: 0.9976
+Average Recall: 0.9987
+Average Hamming Loss: 0.0013```
+
 MisconceptionId: A list of associated misconception IDs for each answer. The values should be space-separated integers representing different misconceptions.
