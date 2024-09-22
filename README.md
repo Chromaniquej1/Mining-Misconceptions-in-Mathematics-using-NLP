@@ -54,5 +54,5 @@ Average Accuracy: 0.9987
 Average F1 Score: 0.9982
 Average Precision: 0.9976
 Average Recall: 0.9987 
-Average Hamming Loss: 0.0013 ```
+Average Hamming Loss: 0.0013```
 
