@@ -15,9 +15,19 @@ The project is organized into several modules for better maintainability and rea
 - `test.py`: Integrates the overall workflow, including data loading, training, and evaluation.
 - `main.py`: The entry point of the application that runs the entire pipeline.
 
-## Requirements
-- Python 3.x
-- PyTorch
-- pandas
-- numpy
-- scikit-learn
+
+## Usage
+
+To run the entire project, use the following command:
+
+```python main.py```
+This will execute the following steps:
+
+Load and preprocess the data: Data is cleaned and transformed into a suitable format for model training.
+Train the machine learning model: The model is trained using the preprocessed data.
+Evaluate the model's performance: Various metrics are calculated to assess how well the model predicts misconceptions.
+Data Format
+The expected input data should be in CSV format with the following columns:
+
+QuestionId_Answer: The identifier for each question and answer option.
+MisconceptionId: A list of associated misconception IDs for each answer. The values should be space-separated integers representing different misconceptions.
