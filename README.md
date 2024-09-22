@@ -53,7 +53,6 @@ Average Scores Across All Misconceptions:
 Average Accuracy: 0.9987
 Average F1 Score: 0.9982
 Average Precision: 0.9976
-Average Recall: 0.9987
-Average Hamming Loss: 0.0013```
+Average Recall: 0.9987 
+Average Hamming Loss: 0.0013 ```
 
-MisconceptionId: A list of associated misconception IDs for each answer. The values should be space-separated integers representing different misconceptions.
